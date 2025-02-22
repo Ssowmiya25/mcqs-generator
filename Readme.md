@@ -33,15 +33,18 @@ your_project_folder/
     ├── index.html
     ├── mcqs.html
     └── result.html
+```
 
 ## Creating a Virtual Environment
 
 It is recommended to create a virtual environment to manage dependencies. To create a virtual environment named `mcqvenv`, run the following commands in your project folder:
 
 ### On Windows:
+
 ```bash
 python -m venv mcqvenv
 mcqvenv\Scripts\activate
+```
 
 ## Installing Dependencies
 
@@ -49,14 +52,15 @@ With the virtual environment activated, install the project dependencies using t
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Usage
 
 ### Run the Application:
 Ensure your virtual environment is active, then start the Flask app:
+
 ```bash
 python app.py
-
+```
 ### Access the App:
 
 Open your web browser and navigate to http://127.0.0.1:5000.
@@ -78,6 +82,7 @@ For deployment on platforms such as Render, Railway, or Heroku, make sure you in
 
 ```bash
 web: gunicorn app:app
+```
 
 ### Configure your deployment service to use:
 
