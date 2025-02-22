@@ -1,6 +1,27 @@
 #  MCQ Generator
+  
+MCQ Generator is a Flask-based web application that allows users to generate multiple-choice questions (MCQs) from text input. This tool is useful for educators, students, and content creators looking to automate quiz generation.  
 
-This project is a Flask-based web application that generates multiple-choice questions (MCQs) from text, PDFs, or URLs. It leverages NLP with spaCy and an LSTM model (using TensorFlow/Keras) to create questions with distractors. The generated MCQs can be viewed in the browser and downloaded as a PDF.
+## Features  
+✅ Accepts text input via URL, manual entry, or file uploads (PDF/TXT)  
+✅ Generates multiple-choice questions dynamically  
+✅ Users can select the number of questions to generate  
+✅ Displays correct answers for review  
+✅ Allows MCQ download as a PDF  
+✅ Simple and user-friendly interface  
+
+## Technologies Used  
+- Flask (Backend)  
+- BeautifulSoup & Requests (Web Scraping)  
+- PyPDF2 (PDF Processing)  
+- Spacy (NLP Processing)  
+- ReportLab (PDF Generation)  
+- Bootstrap (Frontend UI)  
+
+## Getting Started  
+Clone this repository and follow the installation steps in the README to set up the project locally.  
+
+---
 
 ## Table of Contents
 
